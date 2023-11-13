@@ -58,6 +58,7 @@ div#formulario > h1 {
     margin-bottom: 10px;
 }
 
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
@@ -73,13 +74,21 @@ form > input[type=submit] {
 form > div.campo {
     margin: 5px 0px;
     display: block;
-    height: 40px;
-    border: 2px solid #5f2c82;
+    height: 50px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: calc(80% - 51px);
+    height: 80%;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 form > input[type=submit]:hover {
-    text-decoration: underline;
-    background-color: #9922e9b9;
+    background-color: white;
+    color: #9922e9;
+    border: 1px solid #9922e9;
 }
 
 form > a.botao {
@@ -88,14 +97,15 @@ form > a.botao {
     font-size: 1em;
     width: 100%;
     height: 30px;
-    border: 1px solid #9922e9;
     border-radius: 5px;
-    text-decoration: none;
     margin-top: 5px;
-    color: #581485;
+    color: white;
     font-weight: bold;
+    background-color: #9922e9;
 }
 
 form > a.botao:hover {
-    background-color: #9922e977;
+    background-color: white;
+    color: #9922e9;
+    border: 1px solid #9922e9;
 }
